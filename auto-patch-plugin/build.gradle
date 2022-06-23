@@ -45,11 +45,11 @@ sourceSets {
 //    website = 'https://github.com/YummyLau/Anchors'
 //}
 
-//uploadArchives {
-//    repositories.mavenDeployer {
-//        repository(url: uri('../repo'))
-//        pom.groupId = 'com.effective.android'
-//        pom.artifactId = 'gradle-plugin-fix'
-//        pom.version = '0.4.99.2'
-//    }
-//}
+uploadArchives {
+    repositories.mavenDeployer {
+        repository(url: uri('../repo'))
+        pom.groupId = 'com.effective.android'
+        pom.artifactId = 'gradle-plugin-fix'
+        pom.version = '0.4.99.2'
+    }
+}
